@@ -1,13 +1,16 @@
 # Important
 
-Issues of this repository are tracked on https://github.com/aspnetboilerplate/aspnetboilerplate. Please create your issues on https://github.com/aspnetboilerplate/aspnetboilerplate/issues.
+ This repo is based on aspnetboilerplate https://github.com/aspnetboilerplate/aspnetboilerplate
 
 # Introduction
 
-This is a template to create **ASP.NET Core MVC / Angular** based startup projects for [ASP.NET Boilerplate](https://aspnetboilerplate.com/Pages/Documents). It has 2 different versions:
+This is a repo to demonstrate the idea of implementing internal notification (push notification) between application members using signalr. 
 
-1. [ASP.NET Core MVC & jQuery](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core) (server rendered multi-page application).
-2. [ASP.NET Core & Angular](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular) (single page application).
+![image](https://user-images.githubusercontent.com/38657564/154839835-2a90256e-2e8b-43a5-9e01-6625b7712ae5.png)
+
+1.  Open Backend ui (swagger) and trigger SendNotificationMessage after providing title , message , **userIds** (users you want to send them the message).
+2.  You can observe the message as toaster (and this is for example and can be customized based on your needs like navigating to another page or showing modal). 
+3.  Another user received a message since I provided his id while hitting the Api.
  
 User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
  
@@ -15,23 +18,10 @@ User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminL
 
 Create & download your project from https://aspnetboilerplate.com/Templates
 
-# Screenshots
-
-#### Sample Dashboard Page
-![](_screenshots/module-zero-core-template-ui-home.png)
-
-#### User Creation Modal
-![](_screenshots/module-zero-core-template-ui-user-create-modal.png)
-
-#### Login Page
-
-![](_screenshots/module-zero-core-template-ui-login.png)
-
 # Documentation
 
-* [ASP.NET Core MVC & jQuery version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
-* [ASP.NET Core & Angular  version.](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular)
-
+* [Internal Realtime Notification Guidline.docx](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
+ 
 # License
 
 [MIT](LICENSE).
