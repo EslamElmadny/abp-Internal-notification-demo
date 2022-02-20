@@ -1,0 +1,19 @@
+{
+  "remoteServiceBaseUrl": "http://localhost:21021",
+  "remoteNotificationUrl": "http://localhost:21021/signalr-notification",
+  "appBaseUrl": "http://localhost:4200",
+  "localeMappings": [
+    {
+      "from": "pt-BR",
+      "to": "pt"
+    },
+    {
+      "from": "zh-CN",
+      "to": "zh"
+    },
+    {
+      "from": "he-IL",
+      "to": "he"
+    }
+  ]
+}
