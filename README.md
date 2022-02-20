@@ -12,15 +12,14 @@ This is a repo to demonstrate the idea of implementing internal notification (pu
 2.  You can observe the message as toaster (and this is for example and can be customized based on your needs like navigating to another page or showing modal). 
 3.  Another user received a message since I provided his id while hitting the Api.
  
-User Interface is based on [AdminLTE theme](https://github.com/ColorlibHQ/AdminLTE).
  
-# Download
+# How To Run
 
-Create & download your project from https://aspnetboilerplate.com/Templates
+Follow step-by-setp guide from the official site here  https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Angular
 
 # Documentation
 
-* [Internal Realtime Notification Guidline.docx](https://aspnetboilerplate.com/Pages/Documents/Zero/Startup-Template-Core)
+* [Internal Realtime Notification Guidline.docx](https://github.com/EslamElmadny/abp-Internal-notification-demo/blob/develop/Internal%20Realtime%20Notification%20Guidline.docx)
  
 # License
 
